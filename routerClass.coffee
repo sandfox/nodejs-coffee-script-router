@@ -3,7 +3,7 @@ util = require 'util'
 
 class routerClass
 
-	routes : []
+	@routes : []
 	
 
 	addRoute  : (method, path, callback) -> 
